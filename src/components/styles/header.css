@@ -1,0 +1,38 @@
+.header-container {
+    width: 100%;
+    background-color: black;
+    color:white;
+    display:flex;
+    flex-direction:row;
+    /* box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.265); */
+}
+
+.title{
+    padding: 40px 0px 40px 65px;
+    font-size: 1.5rem;
+}
+
+.searchBar{
+margin:auto;
+border-radius: 10px;
+box-shadow: 5px 5px 10px gray;
+margin-right:5%;
+}
+
+.searchBar input{
+    width:350px;
+    height:50px;
+    font-size: 1.3rem;
+    border-radius:10px;
+    padding-left:10px;
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .title{
+        font-size: 1.2rem;;
+    }
+    .searchBar{
+        width:200px;
+    }
+  }

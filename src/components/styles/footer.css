@@ -1,0 +1,10 @@
+.footer-container {
+    padding: 40px;
+    width: 100%;
+    background-color: black;
+    color:white;
+    align-items: center;
+    text-align: center;
+
+    /* box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.265); */
+}

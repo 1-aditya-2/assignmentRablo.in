@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card {
+    width: 300px;
+    box-shadow: 5px 5px 10px #0000005c;
+    position: relative;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.card .overlay {
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    background-color: #00000029;
+    position: absolute;
+    z-index: 1;
+    display: none;
+}
+
+.card .content {
+    /* background-color: #7e6e3b8e; */
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: inherit;
+}
+
+.card .deleteIcon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 10;
+    display: none;
+    border-radius: 50%;
+    padding: 5px;
+}
+.card .editBtn{
+    position: absolute;
+    bottom:20px;
+    right:20px;
+    border-style:solid;
+    border-color: black ;
+    border-width: 1px;
+    border-radius: 5px;
+    padding:3px 7px;
+
+}
+
+.card .deleteIcon:hover {
+    background-color: white;
+}
+
+.card .selectBtn {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 10;
+    display: none;
+    border-radius: 50%;
+    padding: 5px;
+    width: 20px;
+    cursor: pointer;
+}
