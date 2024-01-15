@@ -58,9 +58,9 @@ const Card = ({ user, currentData, setCurrentData, idsToDelete, setIdsToDelete, 
                     <MdDelete size={20} />
                 </div>
 
-                {/* <div className='editBtn'>
+                <div className='editBtn'>
                     Edit
-                </div> */}
+                </div> 
 
 
                 <div className='selectBtn' style={{ display: hovered ? 'block' : 'none' }} onClick={(e) => { e.stopPropagation() }}>
